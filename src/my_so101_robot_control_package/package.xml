@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>so101_robot_control</name>
+  <version>0.0.1</version>
+  <description>ROS 2 control hardware interface for the SO101 robot.</description>
+
+  <maintainer email="valerio@example.com">valerio</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>hardware_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+
+  <!-- Package qui fournit #include "so101/so101.hpp" -->
+  <depend>so101_robot_hardware</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,10 @@
+# ignore tout
+*
+
+# sauf src
+!src/
+!src/**
+
+# garder ces fichiers
+!.gitignore
+!README.md
