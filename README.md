@@ -2,6 +2,8 @@
 
 This project focuses on ... , with the goal of developing a pipeline to automate ...
 
+<br>
+
 ## How to Run
 
 1. Calibrate the So101 Follower arm :
