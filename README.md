@@ -36,5 +36,3 @@ ros2 launch so101_robot_hardware so101_robot_moveit```
   <b>Sample MoveIt Planning Groups Configuration</b><br>
   <img src="./so101_moveit.gif" width="80%" />
 </p>
-
-README is still a work in progress.
