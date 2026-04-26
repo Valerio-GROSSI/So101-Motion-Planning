@@ -1,6 +1,6 @@
 # Robot Pose Guidance with MoveIt Motion Planning
 
-This project focuses on ... , with the goal of developing a pipeline to automate ...
+This project focuses on controlling a 6-DoF robotic arm using MoveIt for motion planning, with the goal of developing a complete pipeline for trajectory execution and manipulation tasks.
 
 <br>
 
