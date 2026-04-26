@@ -4,8 +4,6 @@ This project focuses on controlling a 6-DoF robotic arm using MoveIt for motion 
 
 The robot used in this project is the SO101 arm from LeRobot. The hardware interface follows the original LeRobot design, but has been entirely reimplemented in C++ rather than Python.
 
-<br>
-
 ## How to Run
 
 1. Calibrate the So101 Follower arm :
@@ -22,8 +20,6 @@ ros2 launch so101_robot_bringup my_so101_robot.launch.py
 ```bash
 ros2 launch so101_robot_hardware so101_robot_moveit
 ```
-
-<br>
 
 ## Results
 
