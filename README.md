@@ -2,7 +2,7 @@
 
 This project focuses on controlling a 6-DoF robotic arm using MoveIt for motion planning, with the goal of developing a complete pipeline for trajectory execution and manipulation tasks.
 
-The robot used in this project is the SO101 arm from LeRobot. The hardware interface follows the original LeRobot design, but has been entirely reimplemented in C++ rather than Python.
+The robot used in this project is the So101 arm from LeRobot. The hardware interface follows the original LeRobot design, but has been entirely reimplemented in C++ rather than Python.
 
 ## How to Run
 
