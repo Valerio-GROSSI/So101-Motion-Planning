@@ -11,12 +11,12 @@ ros2 run so101_robot_hardware my_so101_ros2_calib_executable
 
 2. Launch ros2_control and controllers :
 ```bash
-ros2 launch so101_robot_bringup my_so101_robot.launch.py```
+ros2 launch so101_robot_bringup my_so101_robot.launch.py
 ```
 
 3. Launch MoveIt and RViz interface for motion planning :
 ```bash
-ros2 launch so101_robot_hardware so101_robot_moveit```
+ros2 launch so101_robot_hardware so101_robot_moveit
 ```
 
 <br>
