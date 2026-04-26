@@ -4,7 +4,7 @@ This project focuses on ... , with the goal of developing a pipeline to automate
 
 <br>
 
-## For Running
+## How to Run
 
 1. To have a python environment containing the expected libraries for running the scripts :
 ```bash
