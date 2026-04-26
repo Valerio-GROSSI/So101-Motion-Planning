@@ -21,13 +21,15 @@ ros2 launch so101_robot_hardware so101_robot_moveit```
 
 <br>
 
-## Sample MoveIt Planning Groups Configuration
+## Results
 
 <p align="center">
+  <b>So101 Follower Arm</b><br>
   <img src="./so101.gif" width="80%" />
 </p>
 
 <p align="center">
+  <b>Sample MoveIt Planning Groups Configuration</b><br>
   <img src="./so101_moveit.gif" width="80%" />
 </p>
 
