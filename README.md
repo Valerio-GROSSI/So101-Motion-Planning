@@ -6,29 +6,24 @@ This project focuses on ... , with the goal of developing a pipeline to automate
 
 ## How to Run
 
-1. To have a python environment containing the expected libraries for running the scripts :
-```bash
-conda create -n name python=3.10
-conda activate name
-pip install -r requirements.txt
-```
-
-2. Download MOT17 dataset, available with this command :
+1. Calibrate the So101 Follower arm :
 ```bash
 ros2 run so101_robot_hardware my_so101_ros2_calib_executable
 ```
 
-3. Move MOT17 into Inputs folder :
+2. Launch ros2_control and controllers :
 ```bash
 ros2 launch so101_robot_bringup my_so101_robot.launch.py```
+```
 
-4. Execute the command :
+3. Launch MoveIt and RViz interface for motion planning :
 ```bash
 ros2 launch so101_robot_hardware so101_robot_moveit```
+```
 
 <br>
 
-## Sample Results
+## Sample MoveIt Planning Groups Configuration
 
 <p align="center">
   <img src="./so101.gif" width="80%" />
